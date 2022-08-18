@@ -1,0 +1,18 @@
+@media (min-width: 1024px) {
+  /* four items */
+  .card:first-child:nth-last-child(5) {
+    transform: rotate(15deg) translate(-1rem, -4rem);
+  }
+
+  .card:nth-child(2):nth-last-child(4) {
+    transform: rotate(7.5deg) translate(-0.5rem, -1rem);
+  }
+
+  .card:nth-child(4):nth-last-child(2) {
+    transform: rotate(-7.5deg) translate(0.5rem, -1rem);
+  }
+
+  .card:nth-child(5):nth-last-child(1) {
+    transform: rotate(-15deg) translate(1rem, -4rem);
+  }
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply h-screen flex flex-col justify-around  m-0 p-3 lg:p-10 bg-[#0A863E] bg-gradient-to-b from-black/[0] to-black/50;
+  }
+}
+
+@font-face {
+  font-family: 'Alfa Slab One';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Alfa Slab One'),
+    url(./assets/fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Courier Prime'),
+    url(./assets/fonts/Courier_Prime/CourierPrime-Regular.ttf) format('truetype');
+}
